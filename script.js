@@ -79,15 +79,6 @@ function dividir(number1, number2) {
     console.log("Resultado: ", resultado)
     resultArray.push(resultado)
 }
-function filterDivisas(divisas) {
-    let valorDivisa = [];
-    for (let divisa in divisas) {
-        if (divisa.moneda === 'USD') {
-            valorDivisa.push(divisas[divisa]);
-        }
-    }
-    return valorDivisa;
-}
 function esPar(num){
         return num % 2 == 0;
 }
@@ -210,6 +201,4 @@ if (opcionMain == 1) {
             break
         }
     } while (opcion !== 0);
-} {
-
 }
